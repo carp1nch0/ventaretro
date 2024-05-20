@@ -6,6 +6,11 @@
     margin: 12px;
 }
 
+.cajita1 img {
+    width: 240px;
+    height: 280px;
+}
+
 .cajita2 {
     background-color:lightgray;
     width: 240px;
@@ -14,12 +19,23 @@
     margin: 12px;
 }
 
+.cajita2 img {
+    width: 240px;
+    height: 280px;
+}
+
+
 .cajita3 {
     background-color:lightgray;
     width: 240px;
     height: 280px;
     float: left;
     margin: 12px;
+}
+
+.cajita3 img {
+    width: 240px;
+    height: 280px;
 }
 
 .cajita4 {
@@ -30,6 +46,12 @@
     margin: 12px;
 }
 
+.cajita4 img {
+    width: 240px;
+    height: 280px;
+}
+
+
 .cajita5 {
     background-color:lightgray;
     width: 240px;
@@ -38,11 +60,21 @@
     margin: 12px;
 }
 
+.cajita5 img {
+    width: 240px;
+    height: 280px;
+}
+
 body {
    background-color: black;
 }
 
 h1 {
+    text-align: center;
+    color: white;
+}
+
+h3 {
     text-align: center;
     color: white;
 }

@@ -1,0 +1,48 @@
+.cajita1 {
+    background-color:lightgray;
+    width: 240px;
+    height: 280px;
+    float: left;
+    margin: 12px;
+}
+
+.cajita2 {
+    background-color:lightgray;
+    width: 240px;
+    height: 280px;
+    float: left;
+    margin: 12px;
+}
+
+.cajita3 {
+    background-color:lightgray;
+    width: 240px;
+    height: 280px;
+    float: left;
+    margin: 12px;
+}
+
+.cajita4 {
+    background-color:lightgray;
+    width: 240px;
+    height: 280px;
+    float: left;
+    margin: 12px;
+}
+
+.cajita5 {
+    background-color:lightgray;
+    width: 240px;
+    height: 280px;
+    float: left;
+    margin: 12px;
+}
+
+body {
+   background-color: black;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}

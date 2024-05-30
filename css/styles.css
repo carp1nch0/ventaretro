@@ -69,12 +69,16 @@ body {
    background-color: black;
 }
 
-h1 {
+
+h2 {
     text-align: center;
     color: white;
 }
 
-h3 {
+.contenedor-1h {
+    background-color: crimson;
+    height: 50%;
+    width: 100%;
     text-align: center;
-    color: white;
+    border-radius: 10px;
 }

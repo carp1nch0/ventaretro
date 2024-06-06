@@ -14,4 +14,4 @@ document.body.addEventListener("click", (event) => {
 });
 console.log(span);
 console.log({ x, y, detail });  /*aqui solo copie y pegue el codigo, no solo en java sino tambien otros codigos al css y el html, con unos cambios para que se vieran en la pagina; lo que hace es mostrarte las coordenadas en donde hiciste click*/
-/*console.log()*/
+console.log(span.textContent);

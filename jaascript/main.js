@@ -1,3 +1,10 @@
+alert("violacion de leyes");
+alert("el FBI quiere saber tu ubicacion");
+
+let age = prompt ('¿les das tu ubicacion?', "haga click en aceptar para darselas o cancelar para no darselas");
+
+alert(`entendido`); 
+
 const text = "en sus aniversarios habra ofertas, el descuento de:";
 console.log(text);  /*meti el texto que esta en las comillas, lo meti dentro de la variable "text" y com "console.log" hise que me mostrara el texto en la consola de herramientas para desarrolladors*/
 
@@ -15,3 +22,5 @@ document.body.addEventListener("click", (event) => {
 console.log(span);
 console.log({ x, y, detail });  /*aqui solo copie y pegue el codigo, no solo en java sino tambien otros codigos al css y el html, con unos cambios para que se vieran en la pagina; lo que hace es mostrarte las coordenadas en donde hiciste click*/
 console.log(span.textContent);
+
+

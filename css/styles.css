@@ -1,3 +1,16 @@
+textarea {
+    display: block;
+    color:darkred;
+    font-size: 50%;
+    background-color:bisque;
+  }
+
+/*
+  button {
+    margin-top: 10px;
+  }
+*/
+
 .cajita1 {
     background-color:lightgray;
     width: 240px;

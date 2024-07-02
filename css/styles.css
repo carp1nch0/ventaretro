@@ -1,81 +1,194 @@
-textarea {
+.seccion1 {
+    height: 100vh;
+    width: 100vw;
+}
+
+.seccion2 {
+    height: 100vh;
+    width: 100vw;
+}
+
+textarea{
     display: block;
     color:darkred;
     font-size: 50%;
     background-color:bisque;
+    resize: none;
   }
 
-/*
-  button {
-    margin-top: 10px;
-  }
-*/
+.animacion1 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 2ch;
+}
+
+.boton {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 5px;
+}
+
+.juegos {
+    background-color: orangered;
+    height: 22ch;
+}
 
 .cajita1 {
     background-color:lightgray;
     width: 240px;
-    height: 280px;
+    height: 20ch;
     float: left;
-    margin: 12px;
+    margin: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .cajita1 img {
     width: 240px;
     height: 280px;
+    border-radius: 10px;
 }
 
 .cajita2 {
     background-color:lightgray;
     width: 240px;
-    height: 280px;
+    height: 20ch;
     float: left;
-    margin: 12px;
+    margin: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .cajita2 img {
     width: 240px;
     height: 280px;
+    border-radius: 10px;
 }
 
 
 .cajita3 {
     background-color:lightgray;
     width: 240px;
-    height: 280px;
+    height: 20ch;
     float: left;
-    margin: 12px;
+    margin: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .cajita3 img {
     width: 240px;
     height: 280px;
+    border-radius: 10px;
 }
 
 .cajita4 {
     background-color:lightgray;
     width: 240px;
-    height: 280px;
+    height: 20ch;
     float: left;
-    margin: 12px;
+    margin: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .cajita4 img {
     width: 240px;
     height: 280px;
+    border-radius: 10px;
 }
-
 
 .cajita5 {
-    background-color:lightgray;
-    width: 240px;
-    height: 280px;
-    float: left;
-    margin: 12px;
+    background-color:white;
+    width: 14ch;
+    height: 50px;
+    float: right;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
 }
 
-.cajita5 img {
+.maquinitas {
+    background-color: orangered;
+    height: 22ch;
+}
+
+.cajita6 {
+    background-color:lightgray;
+    width: 240px;
+    height: 20ch;
+    float: left;
+    margin: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.cajita6 img {
     width: 240px;
     height: 280px;
+    border-radius: 10px;
+}
+
+.cajita7 {
+    background-color:lightgray;
+    width: 240px;
+    height: 20ch;
+    float: left;
+    margin: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.cajita7 img {
+    width: 240px;
+    height: 280px;
+    border-radius: 10px;
+}
+
+.cajita8 {
+    background-color:lightgray;
+    width: 240px;
+    height: 20ch;
+    float: left;
+    margin: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.cajita8 img {
+    width: 240px;
+    height: 280px;
+    border-radius: 10px;
+}
+
+.cajita9 {
+    background-color:lightgray;
+    width: 240px;
+    height: 20ch;
+    float: left;
+    margin: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.cajita9 img {
+    width: 240px;
+    height: 280px;
+    border-radius: 10px;
+}
+
+.cajita10 {
+    background-color:white;
+    width: 14ch;
+    height: 50px;
+    float: right;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
 }
 
 body {
@@ -88,12 +201,25 @@ h2 {
     color: white;
 }
 
-.contenedor-1h {
+
+.titulo1 {
     background-color: crimson;
-    height: 50%;
+    height: 5ch;
     width: 100%;
-    text-align: center;
+    align-items:center;
+    justify-content: center;
+    display: flex;
     border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.titulo2 {
+    margin-top: 6ch;
+}
+
+.titulo3 {
+    margin-top: 21ch;
 }
 
 body {
@@ -103,8 +229,13 @@ body {
     /*background: lightgrey;*/
     user-select: none;
     font-size: 2rem;
-  }
+}
 
-span {
-     text-align:left;
-  }
+a {
+    text-decoration: none;
+    color: black;
+}
+
+hr {
+    width: 60vw;
+}

@@ -1,4 +1,4 @@
-alert("a ingresado a venta retro, mantener discrecion")
+//alert("a ingresado a venta retro, mantener discrecion")
 
 function animateText(textArea) {
     let text = textArea.value;
@@ -23,4 +23,5 @@ function animateText(textArea) {
       }
     }
   }
+
 

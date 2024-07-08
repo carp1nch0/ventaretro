@@ -4,7 +4,7 @@ nav {
     width: 100%;
     height: 15%;
     background-color:maroon;  /*el "rgba" tiene la opcion de opasidad que esta ubicada en el cuarto numero que use para hacer su color de fondo del navegador transparente*/
-    transform: translate(-1px, -7px);
+    transform: translate(1px, -7px);
 }
 
 nav ul {
@@ -312,7 +312,7 @@ footer {
 .f1 {
     /*border: 1px solid blue;*/
     background-color:rgb(252, 119, 71);
-    height: 10rem;
+    height: 162px;
     width: 50%;
     align-items: center;
     justify-content: center;
@@ -322,7 +322,7 @@ footer {
 .f2 {
     /*border: 1px solid violet;*/
     background-color:rgb(252, 119, 71);
-    height: 10rem;
+    height: 162px;
     width: 50%;
     align-items: center;
     justify-content: center;
@@ -332,11 +332,12 @@ footer {
 .f3 {
     background-color:rgb(253, 141, 100);
     /*border: 1px solid white;*/
-    height: 25px;
-    width: 100vw;
+    height: 30px;
+    width: 100%;
     align-items: center;
     justify-content: center;
     display: flex;
+    transform: translate(1px, -7px);
 }
  
 .ftexto1 {
@@ -375,7 +376,7 @@ footer {
 .naranja {
     background-color: orangered;
     height: 32ch;
-    width: 45vw;
+    width: 41vw;
     /*margin-left: 90px;*/
     float: left;
 }
@@ -384,14 +385,62 @@ footer {
     background-color: orangered;
     float: right;
     height: 32ch;
-    width: 55vw;
+    width: 59vw;
     align-items: center;
     justify-content: center;
     display: flex;
 }
 
-.naranja2 p {
+.N2texto1 {
+    color: black;
+    /*border: 1px solid aqua;*/
+    font-size: 20px;
+    text-align: center;
+}
+
+.N2texto2 {
     font-size: medium;
-    width: 60%;
-    color: white;
+    width: 27rem;
+    color: black;
+    text-align: center;
+    /*background-color: aqua;*/
+}
+
+
+.Ncontenedor {
+    /*border: 1px solid black;*/
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 20rem;
+    width: 100vw;
+}
+
+.Ncontenedor2 {
+    /*border: 1px solid blue;*/
+    background-color:rgb(252, 119, 71);
+    height: 23rem;
+    width: 55%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.Ncontenedor3 {
+    /*border: 1px solid violet;*/
+    background-color:rgb(252, 119, 71);
+    height: 23rem;
+    width: 35%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-right: 10px;
+}
+
+input {
+      width: 10rem;
+      height: 2rem;
+      border-radius: 15px;
+      text-align: center;
+      font-size: 1rem;
 }
